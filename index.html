@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d84bb567fb.js" crossorigin="anonymous"></script>
+    <title>Streamify</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="logo.svg" alt="logo"></div>
+                <ul>
+                    <li><i class="fa-solid fa-house"></i>Home</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i>Search</li>
+                </ul>
+
+            </div>
+
+            <div class="library bg-grey rounded m-1 p1">
+                <div class="heading">
+                    <!-- <i class="fa-solid fa-grip-vertical"></i> -->
+                    <i class="fa-solid fa-lines-leaning"></i>
+                    <h2>Your library</h2>
+                </div>
+
+                <div class="footer">
+                    <div><a href="#"><span>Legal</span></a></div>
+                    <div><a href="#"><span>Privacy Center</span></a></div>
+                    <div><a href="#"><span>Privacy Policy</span></a></div>
+                    <div><a href="#"><span>Cookies</span></a></div>
+                    <div><a href="#"><span>About ads</span></a></div>
+                    <div><a href="#"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="streamifyPlaylists">
+                <h1>Streamify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                        <img src="/images/card1.jpg" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="songbuttons">
+                        <img src="images/prevsong.svg" alt="">
+                        <img src="images/play.svg" alt="">
+                        <img src="images/nextsong.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
