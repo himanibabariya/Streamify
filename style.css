@@ -195,3 +195,10 @@ body{
     left: 0%;
     transition: left 0.5s;
 }
+.songbuttons img{
+    cursor: pointer;
+}
+.abovebar{
+    display: flex;
+    justify-content: space-between;
+}
