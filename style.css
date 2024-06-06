@@ -11,6 +11,9 @@ body{
     width:25vw;
     padding: 10px;
 }
+.close{
+    display: none;
+}
 .right{
     width: 75vw;
     margin: 16px 0;
@@ -57,8 +60,12 @@ body{
 }
 .header > *{
     padding: 20px;
+    /* display: flex; */
 }
 .streamifyPlaylists{
+    padding: 16px;
+}
+.streamifyPlaylists h1{
     padding: 16px;
 }
 .cardContainer{
@@ -128,6 +135,7 @@ body{
     font-size: 17px;
 }
 .playbar{
+
     position: fixed;
     bottom: 30px;
     filter: invert(1);
@@ -144,6 +152,7 @@ body{
 }
 .hamburger{
     display: none;
+    cursor: pointer;
 }
 .hamburgerContainer{
     display: flex;
@@ -211,6 +220,7 @@ body{
 .songinfo, .songtime{
     color: black;
     padding: 0 12px;
+    width: 250px ;
 }
 .abovebar{
     display: flex;
@@ -235,15 +245,31 @@ body{
     }
     .right{
         width: 100vW;
+        margin: 0;
     }
     .playbar{
-        width: calc(100vw - 60px);
-        font-size: 15px;
+        width: calc(100vw - 75px);
+        /* font-size: 15px; */
     }
     .seekbar{
-        width: calc(100vw - 70px);
+        width: calc(100vw - 85px);
     }
     .hamburger{
         display: block;
+    }
+    .card{
+        width: 90vw;
+    }
+    .cardContainer{
+        margin: 0;
+        justify-content: center;
+    }
+    .close{
+        display: block;
+    }
+    .abovebar{
+        flex-direction: column;
+        gap: 23px;
+        align-items: center;
     }
 }
