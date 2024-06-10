@@ -52,7 +52,7 @@
             <div class="header">
                 <div class="nav">
                     <div class="hamburgerContainer">
-                        <img  class="invert hamburger" src="images/hamburger.svg" alt="">
+                        <img class="invert hamburger" src="images/hamburger.svg" alt="">
 
                         <i class="fa-solid fa-chevron-left"></i>
                         <i class="fa-solid fa-chevron-right"></i>
@@ -66,7 +66,20 @@
             <div class="streamifyPlaylists">
                 <h1>Streamify Playlists</h1>
                 <div class="cardContainer">
-                    <div class="card">
+                    <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#000000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="/images/card1.jpg" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+
+                    <div data-folder="ncs" class="card">
                         <div class="play">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="#000000"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -88,16 +101,22 @@
                     </div>
 
                     <div class="abovebar">
-
                         <div class="songinfo">
-
                         </div>
                         <div class="songbuttons">
                             <img width="35" id="previous" src="images/prevsong.svg" alt="">
                             <img width="35" id="play" src="images/play.svg" alt="">
                             <img width="35" id="next" src="images/nextsong.svg" alt="">
                         </div>
-                        <div class="songtime"></div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img width="25" src="images/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
